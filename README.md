@@ -6,19 +6,23 @@ I use node-webrtc/node-webrtc and websockets/ws instead of native ws rtc api on 
 
 So it can run on nodejs env.
 
+fork from git:https://github.com/Winston87245/SIP.js.git
+
+add some new features:
+- fix bug : wsServers config not work
+- push to npm package and name it "node_sip"
+
 ## Download
 
-* npm: `npm install git:https://github.com/Winston87245/SIP.js.git#node-environment`
+* npm: `npm install node_sip`
 
 ## How to use
 
-Audio can be played during a call.
-For reference on how this is done please see ylerlong/node-webrtc-audio-stream-source 
+Audio will be echo
 
-and see ./example/PlayAudio.js
+see ./example/PlayAudio.js
 
-## Note
-You will need to confirm that your audio file codec is supported.
+you can get the income audio stream and send it back.
 
 ## License
 MIT

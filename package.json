@@ -1,5 +1,5 @@
 {
-  "name": "sip.js",
+  "name": "node_sip",
   "title": "SIP.js",
   "description": "A simple, intuitive, and powerful JavaScript signaling library",
   "version": "0.15.10",

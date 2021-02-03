@@ -2,6 +2,7 @@ build/
 node_modules/
 test/
 src/
+example/
 dist/sip-api.d.ts
 dist/sip-api.js
 dist/sip-api.min.js
@@ -10,3 +11,5 @@ dist/sip-core.js
 dist/sip-core.min.js
 karma.conf.js
 .travis.yml
+.github/
+.vscode/
